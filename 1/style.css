@@ -1,0 +1,206 @@
+body {
+    background-color: #ffffff;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rectangle2-3-4 {
+    width: 378px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle5-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 25px;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid #000000;
+}
+
+.rectangle1-dots {
+    background: #000;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.rectangle2 {
+    display: flex;
+    justify-content: space-between;
+    order: -1;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid #000000;
+}
+
+.rectangle2-dots {
+    display: flex;
+    background: #000;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+#rect1dot1 {
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+#rect1dot2 {
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.rectangle3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid #000000;
+}
+
+.rectangle3-dots {
+    background: #000;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.rect3dot1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.rect3dot4-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#rect3dot3 {
+    align-items: center;
+    align-self: center;
+}
+
+.rectangle4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid #000000;
+}
+
+.rectangle4-dots {
+    display: flex;
+    background: #000;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+#rect4dot1 {
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+#rect4dot2 {
+    align-items: center;
+    align-self: center;
+}
+
+#rect4dot3 {
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.rectangle5 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid #000000;
+}
+
+.rectangle5-dots {
+    background: #000;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+#rect5dot3 {
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+#rect5dot4 {
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.rectangle6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 5px solid #000000;
+}
+
+.rectangle6-dots {
+    background: #000;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
