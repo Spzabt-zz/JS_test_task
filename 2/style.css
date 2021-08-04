@@ -1,0 +1,116 @@
+.body {
+    display: flex;
+    text-align: center;
+    justify-items: center;
+}
+
+a {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: rgb(17, 118, 220);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.container {
+    width: 450px;
+    height: 500px;
+    background-color: #fff;
+    margin: 120px auto 0 auto;
+    text-align: center;
+    box-shadow: 0px 4px 4px 0px #000;
+    border-radius: 10px 10px 10px 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.header {
+    margin-bottom: 50px;
+    color: rgb(17, 118, 220);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-info {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15%;
+}
+
+.email-input {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+
+.password-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.password-input {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.dws-submit {
+    width: 315px;
+    height: 50px;
+    padding: 13px 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(17, 118, 220);
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.dws-submit:hover {
+    transition: all 0.5s;
+    background: #fff;
+    color: rgb(17, 118, 220)
+}
+
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 8%;
+}
+
+.checkbox-lable {
+    margin-top: 12px;
+}
+
+.single-sign-on {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#footer-href {
+    display: inline !important;
+}

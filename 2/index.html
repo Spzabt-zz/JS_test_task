@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">Stackfindover</h1>
+        <form>
+            <h3 class="sign-info">Sign in to your account</h3>
+            <h4 class="email-input">Email</h4>
+            <div class="dws-input">
+                <input id="email-validate" type="text" name="email" placeholder="Your email">
+            </div>
+            <div class="password-info">
+                <h4 class="password-input">Password</h4>
+                <a href="https://www.google.com" target="_blank">Forgot your password?</a>
+            </div>
+            <div class="dws-input">
+                <input id="password-validate" type="password" name="password" placeholder="Your password">
+            </div>
+            <div class="checkbox">
+                <input class="checkbox" type="checkbox" name="stay" />
+                <label class="checkbox-lable" for="stay">Stay signed in for a week</label>
+            </div>
+            <button id="btn" type="button" class="dws-submit">Continue</button>
+            <br />
+            <div class="single-sign-on">
+                <a href="https://www.google.com.ua/maps/" target="_blank">Use single sign-on (Google) instead</a
+                >
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <h4>Don't have an account?<a id="footer-href" href="https://facebook.com" target="_blank"> Sign up</a></h4>
+            </div>
+            <script src="validation.js"></script>
+</body>
+
+</html>
